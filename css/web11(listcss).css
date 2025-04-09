@@ -1,0 +1,10 @@
+ul {
+    /* list-style: circle; */
+    /* list-style-type: square; */
+    /* list-style-image: url("../images/free-icon-avatar-1752675.png"); */
+}
+
+ol {
+    /* list-style-type: decimal-leading-zero; */
+    list-style-type: none;
+}

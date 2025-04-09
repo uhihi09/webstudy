@@ -1,0 +1,57 @@
+.tstart{
+    text-align: start;
+    direction: rtl;
+}
+
+.tleft{
+    text-align: left;
+    direction: rtl;
+}
+
+.tend{
+    text-align: end;
+    direction: rtl;
+}
+
+.tright{
+    text-align: right;
+    direction: rtl;
+}
+
+.tjust{
+    text-align: justify;
+}
+
+.lineh1{
+    line-height: 0.5;
+}
+
+.lineh2{
+    line-height: 2;
+}
+
+.heading{
+    width: 100%;
+    height: 100px;
+    background-color: #222;
+    color: rgb(255,255,255);
+    text-align: center;
+    line-height: 100px;
+}
+
+.tdeco{
+    /* text-decoration: underline; */
+    text-decoration: line-through;
+}
+
+.tsh{
+    text-shadow: -3px -3px 5px black;
+    color: red;
+}
+
+.ttrans{
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 10px;
+}

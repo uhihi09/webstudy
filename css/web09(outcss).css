@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+#container{
+    width: 600px ;
+    margin: 20px auto ;
+}
+
+h1{
+    display:inline-block ;
+    background-color: #0404aa;
+    color: #fff;
+    font-family: "함초론바탕", "나눔글씨 펜";
+}
+
+.accent{
+    font-weight: bold;
+    color: red;
+    font-family: "Single Day", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: x-large;
+}
+
+.fsize{
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 100;
+    color: rgb(255,0,0,0.5);
+}

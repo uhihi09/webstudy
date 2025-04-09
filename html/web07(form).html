@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label>아이디(6자이상): <input type="text" autofocus required value="dgsw" minlength="6" maxlength="12" size="10"></label><br>
+        <label for="pw">비밀번호: </label><input type="password" id="pw"><br>
+        <input type="submit" value="로그인">
+        <input type="image" src ="../images/login.png" alt="로그인">
+        <input type="reset" value="재작성">
+        <input type="button" value="아이디/비밀번호 찾기"><br>
+    </form>
+    <form>
+        <label>검색: <input type="search" placeholder="검색어를 입력하세요."></label>
+        <fieldset>
+            <legend>상품 정보</legend>
+            <h5>상품 선택</h5>
+            <label><input type="checkbox" name="product" value="h3">가정용 3kg</label>
+            <input type="number" value="2" min="0" max="20" step="2"><br>
+            <label><input type="checkbox" name="product" value="h5">가정용 5kg</label>
+            <input type="range" min="0" max="20" step="2"><br>
+            <label><input type="checkbox" name="product" value="g3" checked>선물용 3kg</label>
+            <input type="number" value="2" min="0" max="20" step="2"><br>
+            <label><input type="checkbox" name="product" value="g5">선물용 5kg</label>
+            <input type="number" value="2" min="0" max="20" step="2"><br>
+
+            <select>
+                <option value="hom3">가정용 3kg</option>
+                <option value="hom5">가정용 5kg</option>
+                <option value="pre3">선물용 3kg</option>
+                <option value="pre5" selected>선물용 5kg</option>
+            </select>
+
+            <h5>포장 여부</h5>
+            <label><input type="radio" name="pack" value="y">포장</label>
+            <label><input type="radio" name="pack" value="n" checked>포장 안함</label>
+        </fieldset>
+        <fieldset>
+            <legend>배송 정보</legend>
+            <label>이메일: <input type="email" readonly></label>
+            <label>홈페이지 주소: <input type="url" value="http://"></label>
+            <label>전화번호: <input type="tel"></label>
+            <br>
+            <label>배송날짜: <input type="date"></label>
+        </fieldset>
+        <button type="submit">완료</button>
+        <button type="reset">재작성</button>
+        <button type="button">문의사항</button>
+        <input type="file">
+        <button type="button">
+            <img src="../images/ducami.png" alt="두카미">
+            <img src="../images/tangerines.jpg" alt="텐가린">
+        </button><br>
+        <textarea cols="20" rows="3"></textarea>
+    </form>
+</body>
+</html>
