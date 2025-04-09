@@ -1,10 +1,16 @@
+@import url('https://cdn-uicons.flaticon.com/2.6.0/uicons-regular-rounded/css/uicons-regular-rounded.css');
+
 ul {
     /* list-style: circle; */
     /* list-style-type: square; */
     /* list-style-image: url("../images/free-icon-avatar-1752675.png"); */
+    list-style-type: none;
+    padding: 0px;
 }
 
 ol {
     /* list-style-type: decimal-leading-zero; */
-    list-style-type: none;
+    /* list-style-type: lower-alpha;
+    list-style-position: inside; */
+    list-style: lower-alpha inside;
 }
