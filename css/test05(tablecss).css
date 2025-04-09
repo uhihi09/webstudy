@@ -1,0 +1,33 @@
+table {
+    border: 2px solid black;
+    width: 800px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 10px;
+    vertical-align: top;
+}
+
+.sun {
+    color: red;
+}
+
+.sat {
+    color: blue;
+}
+
+.day {
+    font-size: 10px;
+}
+
+.change:hover {
+    background: skyblue;
+}
+
+tr {
+    font-weight: 700;
+}
+
