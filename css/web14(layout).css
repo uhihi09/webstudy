@@ -1,0 +1,88 @@
+body {
+    margin: 0px;
+}
+
+header ul {
+    float: right;
+}
+
+nav > ul {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0px;
+    clear: both;
+    margin-bottom: 0px
+}
+
+nav ul li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+header img {
+    float: left;
+}
+
+header ul li {
+    display: inline;
+    padding: 0px 10px;
+}
+
+#bot_nav img {
+    width: 400px;
+    height: 250px;
+    position: absolute;
+    top: 20px;
+    right: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 3px 5px black;
+}
+
+#bot_nav {
+    position: relative;
+    width: 100%;
+    height: 300px;
+    padding: 20px;
+    border: 10px dotted;
+    /* background-color: aqua;
+    background-clip: border-box; */
+    background-image: url("https://img.khan.co.kr/news/2020/05/15/2020051401001770900136491.jpg");
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+    /* background-position: 100px 100px; */
+    /* background-origin: border-box; */
+    background-attachment: fixed;
+}
+
+#bot_nav p {
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    color: cyan;
+    font-size: 1.5cm;
+    text-shadow: 2px 3px 5px white;
+    font-size: x-large;
+}
+
+main {
+    width: 100%;
+    height: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    /* background: linear-gradient(to bottom, #C6219F, #FE085B 50%, #FFC331); */
+    background: repeating-linear-gradient(white,black 20px,black 20px);
+}
+
+.grad {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 20% 20%, white, #FE085B 50%, #FFC331);
+    box-shadow: 5px 5px 5px #FFC331;
+}

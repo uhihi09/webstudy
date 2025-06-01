@@ -1,0 +1,239 @@
+body, ul, li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-header {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.25em solid black;
+}
+
+.site-header ul{
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.site-header ul li a{
+    text-decoration-line: none;
+    color: black;
+}
+
+.side-bar ul > li > a {
+    display: block;
+    color: white;
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+
+.logo h2 {
+    font-family: "Noto Serif KR", serif;
+}
+
+.side-bar ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.side-bar ul li {
+    list-style-type: none;
+}
+
+.side-bar ul li a{
+    color: black;
+}
+
+img {
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.dae img{
+    width: 100%;
+    height: 700px;
+    opacity: 0.7;
+}
+
+.di {
+    width: 100%;
+    margin: 10px auto;
+    position:relative;
+}
+
+.dae img{
+    width: 100%;
+    vertical-align: middle;
+}
+
+.dae-text {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    width: 100%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 400px);
+    grid-template-areas:
+        "box1 box2 box3"
+        "box4 box5 box6";
+    margin:auto;
+}
+
+.box1 {
+    background-image: url(https://image.yes24.com/goods/145629000/L);
+    background-color: blue;
+    grid-area: box1;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box2 {
+    background-image: url(https://image.yes24.com/goods/112925092/L);
+    background-color: blue;
+    grid-area: box2;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box3 {
+    background-image: url(https://image.yes24.com/goods/142687238/L);
+    background-color: blue;
+    grid-area: box3;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box4 {
+    background-image: url(https://image.yes24.com/goods/144021119/L);
+    background-color: blue;
+    grid-area: box4;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box5 {
+    background-image: url(https://image.yes24.com/goods/145655960/L);
+    background-color: blue;
+    grid-area: box5;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box6 {
+    background-image: url(https://image.yes24.com/goods/13137546/L);
+    background-color: blue;
+    grid-area: box6;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wow {
+    margin: 2em;
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+    width: 900px;
+    height: 400px;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 10px;
+    vertical-align: top;
+    height: 100px;
+    width: 900px;
+}
+
+tr {
+    height: 25px;
+}
+
+.sun {
+    color: red;
+}
+
+.sat {
+    color: blue;
+}
+
+.day {
+    font-size: 10px;
+}
+
+.change:hover {
+    background: skyblue;
+}
+
+tr {
+    font-weight: 700;
+}
+
+.table tbody tr ul {
+    list-style-position: inside;
+    background-color: rgb(234, 201, 250);
+    font-weight: lighter;
+}
+
+.foot div ul{
+    text-decoration-line: none;
+}
+
+.foot div ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.foot div ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 반응형 웹 구현 */
+@media screen and (max-width: 768px) {
+    .gallery {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, auto);
+        grid-template-areas:
+            "box1"
+            "box2"
+            "box3"
+            "box4"
+            "box5"
+            "box6";
+        gap: 20px;
+    }
+
+    .box1, .box2, .box3, .box4,
+    .box5, .box6{
+        height:400px;
+        margin: 0 10px;
+    }
+}

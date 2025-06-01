@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/web_1210배준하.css">
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-straight/css/uicons-bold-straight.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&family=Single+Day&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="site-header">
+            <div class="logo">
+                <i class="fi fi-bs-book-alt"></i> <!-- 로고 -->
+                <h2>레전드 도서관</h2> <!-- 웹사이트 이름 -->
+            </div>
+            <form class="search"> <!-- 검색창 -->
+                <input type="search" placeholder="검색어를 입력하세요">
+            </form>
+            <ul>
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+        </div>
+    </header>
+    <aside class="side-bar"> <!-- 메뉴 -->
+        <ul>
+            <li><a href="#">도서대출</a></li>
+            <li><a href="#">소장도서</a></li>
+            <li><a href="#">추천도서</a></li>
+            <li><a href="#">인문학 탐방</a></li>
+            <li><a href="#">캠페인</a></li>
+        </ul>
+    </aside>
+    <div class="di">
+        <div class="dae"> <!-- 대표 이미지 -->
+            <img src="https://www.artinsight.co.kr/data/tmp/2002/20200211191335_emzpnxko.jpg" alt="대표이미지 책">
+        </div>
+        <div class="dae-text">
+            <h2>여러분이 원하는 책을 찾을 수 있는 도서관</h2>
+            <h1>레전드 도서관</h1>
+        </div>
+    </div>
+    <h2 class="wow">도서관 대표 도서</h2>
+    <div class="gallery"> <!-- 갤러리 -->
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="box4"></div>
+        <div class="box5"></div>
+        <div class="box6"></div>
+    </div>
+    <h2 class="wow">도서관 일정표</h2> <!-- 일정표 -->
+    <table class="table">
+        <thead class="legend">
+            <caption><button><</button><b>2025.05</b><button>></button><button onclick="alert('이번달은 5월입니다')">이번달</button></caption>
+                <tr>
+                    <th class="sun">일요일</th>
+                    <th>월요일</th>
+                    <th>화요일</th>
+                    <th>수요일</th>
+                    <th>목요일</th>
+                    <th>금요일</th>
+                    <th class="sat">토요일</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="sun change">4/27</td>
+                <td class="change">4/28</td>
+                <td class="change">4/29<ul><li>책 읽기 캠페인</li></ul></td>
+                <td class="change">4/30<ul><li>책 읽기 캠페인</li><li></li></ul></td>
+                <td class="change">01<ul><li>책 읽기 캠페인</li></ul></td>
+                <td class="change">02<ul><li>책 읽기 캠페인</li></ul></td>
+                <td class="sat change">03</td>
+            </tr>
+            <tr>
+                <td class="sun change">04</td>
+                <td class="change">05<ul><li>인문학 탐방</li></ul></td>
+                <td class="change">06<ul><li>인문학 탐방</li><li></li></ul></td>
+                <td class="change">07<ul><li>인문학 탐방</li></ul></td>
+                <td class="change">08<ul><li>인문학 탐방</li><li></li></ul></td>
+                <td class="change">09</td>
+                <td class="sat change">10</td>
+            </tr>
+            <tr>
+                <td class="sun change">11</td>
+                <td class="change">12<ul><li>독서 교육</li></ul></td>
+                <td class="change">13<ul><li>독서 교육</li></ul></td>
+                <td class="change">14<ul><li>독서 교육</li><li></li></ul></td>
+                <td class="change">15</td>
+                <td class="change">16</td>
+                <td class="sat change">17</td>
+            </tr>
+            <tr>
+                <td class="sun change">18</td>
+                <td class="change">19<ul><li>작가 강좌</li></ul></td>
+                <td class="change">20<ul><li>작가 강좌</li></ul></td>
+                <td class="change">21<ul><li>작가 강좌</li></ul></td>
+                <td class="change">22</td>
+                <td class="change">23</td>
+                <td class="sat change">24</td>
+            </tr>
+            <tr>
+                <td class="sun change">25</td>
+                <td class="change">26<ul><li>대출 이벤트</li></ul></td>
+                <td class="change">27<ul><li>대출 이벤트</li></ul></td>
+                <td class="change">28<ul><li>대출 이벤트</li></ul></td>
+                <td class="change">29<ul><li>대출 이벤트</li></ul></td>
+                <td class="change">30<ul><li>대출 이벤트</li></ul></td>
+                <td class="sat change">31</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2 class="wow">책 배달</h2>
+    <form> <!-- 신청폼 ㅠㅠ -->
+        <input type="search" placeholder="7" maxlength="7">
+        <input type="checkbox">경비실에 맡겨두기
+        <input type="checkbox">로켓 배송
+        <button>신청</button>
+    </form>
+    <footer class="foot"> <!-- 사이트 정보,하이퍼링크 -->
+        <div>
+            <ul>
+                <li><a href="#">도서관서비스헌장</a></li>
+                <li><a href="#">개인정보처리방침</a></li>
+                <li><a href="#">담당자:1210 배준하</a></li>
+                <li><a href="https://library.daegu.go.kr/dalseong/index.do" target="_blank">(42998) 대구 달성군 현풍읍 현풍동로19길 26</a></li>
+                <li><a href="#">전 화053)231-2150</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+
+</html>

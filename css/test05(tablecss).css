@@ -1,6 +1,6 @@
 table {
     border: 2px solid black;
-    width: 800px;
+    width: 900px;
     height: 400px;
     border-collapse: collapse;
 }
@@ -9,6 +9,12 @@ td {
     border: 1px solid black;
     font-size: 10px;
     vertical-align: top;
+    height: 100px;
+    width: 900px;
+}
+
+tr {
+    height: 25px;
 }
 
 .sun {
@@ -31,3 +37,8 @@ tr {
     font-weight: 700;
 }
 
+ul {
+    list-style-position: inside;
+    background-color: rgb(234, 201, 250);
+    font-weight: lighter;
+}
